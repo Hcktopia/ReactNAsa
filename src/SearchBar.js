@@ -83,12 +83,12 @@ const SearchBar = (props) => {
 		<div>
 			<input
 				type='text'
-				placeholder='Enter state name'
+				placeholder='Type state name'
 				value={selectedState}
 				onChange={handleStateChange}
 			/>
 			<select value={selectedState} onChange={handleStateChange}>
-				<option value=''>Select a state</option>
+				<option value=''>Type a state</option>
 				<option value='Alabama'>Alabama</option>
 				<option value='Alaska'>Alaska</option>
 				<option value='Arizona'>Arizona</option>
