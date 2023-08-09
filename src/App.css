@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f9f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: #666;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  color: solid #ffffff;
+}
+
+.search-button {
+  background-color: solid #ffffff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+/* .search-button:hover {
+  background-color: solid #424141;
+} */
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #ffffff;
+  border-top: 10px solid #ffffff;
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-style: white;
+  text-shadow: 2px 2px 4px solid #adf51c;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://media.istockphoto.com/id/1337977426/photo/dark-gray-and-black-grunge-cement-wall-studio-room-space-product-background-template.webp?b=1&s=170667a&w=0&k=20&c=4dVCV5KtJKEhuQtp5dbnFmwMBAzNknz35VUIa0C3KoE=");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image-container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  padding: 100px;
+
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    gap: 20px;
+}
